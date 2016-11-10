@@ -10,6 +10,7 @@ machine:
 test:
   override:
     - ruby -v
-    - riak ping
+    - sudo riak ping
     - redis-server --version
     - mysql --version
+    - postgres --version
