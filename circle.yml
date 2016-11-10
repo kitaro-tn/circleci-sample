@@ -1,0 +1,15 @@
+machine:
+  timezone:
+    Asia/Tokyo
+  ruby:
+    version: 2.3.1
+  services:
+    - riak
+    - redis
+
+test:
+  override:
+    - ruby -v
+    - riak -v
+    - redis -v
+    - mysql -v
