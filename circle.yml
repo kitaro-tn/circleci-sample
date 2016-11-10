@@ -10,6 +10,6 @@ machine:
 test:
   override:
     - ruby -v
-    - riak -v
-    - redis -v
-    - mysql -v
+    - riak ping
+    - redis-server --version
+    - mysql --version
