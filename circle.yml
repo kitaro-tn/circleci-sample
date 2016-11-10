@@ -13,4 +13,4 @@ test:
     - sudo riak ping
     - redis-server --version
     - mysql --version
-    - postgres --version
+    - psql --version
